@@ -1,0 +1,21 @@
+/* Original Island Snow Bootstrap exercise styles, adapted to React Bootstrap */
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: #111; background: #fff; }
+.topbar { min-height: 31px; background: #f7f7f7 !important; }
+.topbar .topbar-inner { max-width: 625px; }
+.topbar .nav-link, .topbar .dropdown-toggle { color: #1f1f1f; font-size: 13px; line-height: 1; text-decoration: none; padding: 4px !important; }
+.topbar .nav-link:hover, .topbar .dropdown-toggle:hover { color: #000; }
+.topbar .dropdown-toggle::after { margin-left: 3px; vertical-align: 2px; }
+.topbar .dropdown-menu { font-size: 13px; }
+.site-content { max-width: 785px; }
+.logo-section { padding: 34px 0 23px; }
+.logo-section img { display: inline-block; object-fit: contain; }
+.middlebar { padding: 0 0 15px; }
+.middle-links { gap: 17px; }
+.middle-links .nav-link { padding: 6px 13px; color: #151515; font-size: 13px; font-weight: 500; letter-spacing: .03em; }
+.middle-links .nav-link:hover { color: #777; }
+.hero-image { width: 100%; }
+.hero-image img { display: block; width: 100%; height: auto; }
+.footer-menu { padding: 26px 0 35px; }
+.footer-menu a { color: #111; font-size: 13px; text-decoration: none; }
+.footer-menu a:hover { text-decoration: underline; }
+@media (max-width: 575px) { .logo-section { padding: 25px 0 18px; } .middle-links { gap: 1px; } .middle-links .nav-link { padding: 7px 9px; font-size: 12px; } .footer-menu { padding: 20px 0; } }
